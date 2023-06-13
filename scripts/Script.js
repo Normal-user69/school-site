@@ -1,3 +1,6 @@
+function goToMain(){
+location.replace("../pages/MainPage.html");
+}
 
 function login() {
     var name = "admin";
@@ -12,7 +15,7 @@ function login() {
     document.getElementById("login").innerHTML = "<h1>LogedIn</h1>"
 
     document.getElementById("login").innerHTML += "<h2>" + "welcome " + uname + "</h2>"
-    location.replace("./ClassTable.html");
+    location.replace("./pages/MainPage.html");
 } else if (bool) {
     document.getElementById("login").innerHTML += "<br><br><h2>Wrong name or password<h2>"
     bool = false;

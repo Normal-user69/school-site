@@ -8,8 +8,8 @@
     <link rel="icon" type="image/png"
     href="https://th.bing.com/th/id/R.4e2db36dbacbef6e04fc16ec6a8f2971?rik=KlJQe1JQD7%2fIUw&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fjTx%2foe5%2fjTxoe5AXc.png&ehk=AIBy0Tr4alWdrBFXMXh%2fMMlbykNbN1Tintg7a6pEwjs%3d&risl=&pid=ImgRaw&r=0">  
 
-    <link rel="stylesheet" href="styles/ClassTable.css">
-    <script src="scripts/Script.js"></script>
+    <link rel="stylesheet" href="../styles/ClassTable.css">
+    <script src="../scripts/Script.js"></script>
 
 </head>
 <body>
@@ -20,29 +20,30 @@
 
     <div class="input" name="Company">
 
-      <label>Company:</label>
+      <label>Student Name:</label>
       <input type="text" id="Company">
 
     </div>
 
     <div class="input" name="Contact">
 
-      <label>Contact:</label>
+      <label>Grade Year:</label>
       <input type="text" id="Contact">
 
     </div>
 
     <div class="input" name="Contry">
 
-      <label>Contry:</label>
+      <label>GPA:</label>
       <input type="text" id="Contry">
 
     </div>
 
     <div class="input">
 
-      <button type="button" id="Insert" onclick="addToTable()">Insert Row</button>
-
+      <button type="button" id="Insert" onclick="addToTable()">Add Student</button>
+      <button type="button" onclick="goToMain()">BackToMain</button>
+      
     </div>
 
   </div>
@@ -52,21 +53,21 @@
   <table id="tableData">
     <thead>
       <tr>
-        <th>Company</th>
-        <th>Contact</th>
-        <th>Country</th>
+        <th>Name</th>
+        <th>Year</th>
+        <th>Gpa</th>
       </tr>
     </thead>
     <tbody id="body">
       <tr>
-        <td>Alfreds Futterkiste</td>
-        <td>Maria Anders</td>
-        <td>Germany</td>
+        <td>Ahmed mohsen</td>
+        <td>3rd prep</td>
+        <td>3.4</td>
       </tr>
       <tr>
-        <td>Centro comercial Moctezuma</td>
-        <td>Francisco Chang</td>
-        <td>Mexico</td>
+        <td>Ali Hossam</td>
+        <td>2nd prim</td>
+        <td>2.3</td>
       </tr>
     </tbody>
   </table>
