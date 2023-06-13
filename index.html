@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+
+    <link rel="icon" type="image/png"
+    href="https://th.bing.com/th/id/R.4e2db36dbacbef6e04fc16ec6a8f2971?rik=KlJQe1JQD7%2fIUw&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fjTx%2foe5%2fjTxoe5AXc.png&ehk=AIBy0Tr4alWdrBFXMXh%2fMMlbykNbN1Tintg7a6pEwjs%3d&risl=&pid=ImgRaw&r=0">  
+
+    <link rel="stylesheet" href="styles/LoginPage.css">
+    <script src="scripts/Script.js"></script>
 </head>
+
 <body>
-    <h1>Hello WOrld!</h1>
-    <h2>This is LoginPage</h2>
-</body>
-</html>
+    <h1 id="welcome">Welcome To Working Area</h1>
+    <form>
+  
+      <div class="login" id="login">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png">
+        <br><br>
+        <label>Name: </label>
+        <input rel="textfield" id="name"></input>
+        <br><br>
+        <label>Password: </label>
+        <input rel="textfield" type="password" id="pass"></input>
+        <br><br>
+        <button onclick="login()">LogIn</button>
+      </div>
+  
+    </form>
+  </body>
+  
+  </html>
